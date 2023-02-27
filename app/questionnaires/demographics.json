@@ -1,0 +1,65 @@
+{  
+    "title":"Demographics",
+    "instructions":"Is this line necessary? Please answer the following questions.",
+    "code":"",
+    "questions":[
+        {  
+            "questiontype": "num_field",
+            "datatype": "integer",
+            "instructions": "What is your age?",
+            "id": "age",
+            "required":"true",
+            "placeholder": "18",
+            "min":"1",
+            "max":"120"
+        },
+        {  
+            "questiontype":"drop_down",
+            "instructions":"Indicate your gender:",
+            "id":"gender",
+            "dropheight":"78",
+            "required":"false",
+            "items":[  
+                    "woman",
+                    "man",
+                    "non-binary",
+                    "Prefer not to disclose", 
+                    "Prefer to self describe"
+                ]
+        },
+        {
+            "questiontype":"field",
+            "instructions":"Self-describe your gender, if applicable:",
+            "id":"gender_self_described",
+            "required":false
+        },
+        {
+        "questiontype": "slider",
+        "instructions": "How much do you self-identify as a gamer on the following scale:",
+        "id": "gamer_identity",
+        "left": "not at all",
+        "right": "gamer",
+        "tick_count": 10
+        },
+        {
+            "questiontype":"radiolist",
+            "instructions":"Did you play with sounds on?",
+            "id":"radiolist_1",
+            "labels":[
+                "Yes",
+                "I do not remember",
+                "No"
+            ]
+        },
+        {
+            "questiontype":"radiolist",
+            "instructions":"In case your answer to the previous question was yes, could you hear the game sounds?",
+            "id":"radiolist_1",
+            "labels":[
+                "Yes",
+                "No"
+            ],
+            "required":false
+        }
+    ]
+}
