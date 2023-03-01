@@ -71,6 +71,12 @@ def game_SE():
 def fetch_condition():
     return str(session['condition'])
 
+#When the game ends, it redirects the user to the next page
+@SpaceOddity.route("/end_game")
+@verify_session_valid
+def end_game():
+    db.session.commit()
+    return redirect("redirect_next_page")
 
 #Logging functions
 @SpaceOddity.route("/SpaceOddity", methods=['POST'])

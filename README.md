@@ -1,2 +1,0 @@
-# SpaceOddity
- Master's Project
