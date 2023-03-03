@@ -8,8 +8,8 @@ def create(db):
 
     class SpaceOddityDeath(db.Model):
         __tablename__ = "deathLog"
-        condition = db.Column(db.String, primary_key=True)
-        gameLogID = db.Column(db.Integer, autoincrement=True)
+        condition = db.Column(db.String)
+        gameLogID = db.Column(db.Integer, primary_key=True, autoincrement=True)
         participantID = db.Column(db.Integer, db.ForeignKey('participant.participantID'))
         timestamp = db.Column(db.String)
         levelID = db.Column(db.String)
