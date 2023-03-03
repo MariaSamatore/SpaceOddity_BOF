@@ -1,6 +1,5 @@
 {
     "title":"General SE",
-    "instructions":"Is this line necessary? Please rate each video game experience.",
     "code":"",
     "questions":[
         {
@@ -21,7 +20,7 @@
                 },
                 {
                     "id": "q_2",
-                    "text": " If someone opposes me, I can find the means and ways to get what I want. "
+                    "text": " If something/someone opposes me, I can find the means and ways to get what I want. "
                 },
                 {
                     "id": "q_3",

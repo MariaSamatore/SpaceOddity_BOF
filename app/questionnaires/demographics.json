@@ -43,23 +43,32 @@
         },
         {
             "questiontype":"radiolist",
-            "instructions":"Did you play with sounds on?",
+            "instructions":"Did you play with sound on?",
             "id":"radiolist_1",
             "labels":[
                 "Yes",
+                "Yes, but I could not hear the sound well",
                 "I do not remember",
                 "No"
             ]
         },
         {
-            "questiontype":"radiolist",
-            "instructions":"In case your answer to the previous question was yes, could you hear the game sounds?",
-            "id":"radiolist_1",
-            "labels":[
-                "Yes",
-                "No"
-            ],
-            "required":false
+            "questiontype":"field",
+            "instructions":"Do you have any feedback related to the study?",
+            "placeholder":"study feedback",
+            "id":"input_1"
+        },
+        {
+            "questiontype":"field",
+            "instructions":"Do you have any feedback related to the game?",
+            "placeholder":"game feedback",
+            "id":"input_2"
+        },
+        {
+            "questiontype":"field",
+            "instructions":"Did you face any technical problems during the study? If yes, please describe below.",
+            "placeholder":"technical feedback",
+            "id":"input_3"
         }
     ]
 }
