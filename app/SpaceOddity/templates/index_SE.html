@@ -6,10 +6,37 @@
     <title>Unity WebGL Player | Space Oddity</title>
     <link rel="shortcut icon" href="TemplateData/favicon.ico">
     <link rel="stylesheet" href="TemplateData/style.css">
+    <!--<style>
+        body {
+            padding: 0;
+            margin: 0;
+        }
+        #unity-canvas, #unity-container {
+            width: 100% !important;
+            height: 100% !important;
+            position: absolute;
+        }
+    </style>-->
+    <style>
+        html, body {
+            height: 100%;
+        }
+
+        html{
+            display: table;
+            margin: auto;
+        }
+
+        body {
+            display: table-cell;
+            vertical-align: middle;
+        }
+    </style>
+
 </head>
 <body>
     <div id="unity-container" class="unity-desktop">
-        <canvas id="unity-canvas" width=960 height=600></canvas>
+        <canvas id="unity-canvas"></canvas>
         <div id="unity-loading-bar">
             <div id="unity-logo"></div>
             <div id="unity-progress-bar-empty">
@@ -91,8 +118,8 @@
         } else {
             // Desktop style: Render the game canvas in a window that can be maximized to fullscreen:
 
-            canvas.style.width = "960px";
-            canvas.style.height = "540px";
+            canvas.style.width = "1440px";
+            canvas.style.height = "810px";
         }
 
         loadingBar.style.display = "block";

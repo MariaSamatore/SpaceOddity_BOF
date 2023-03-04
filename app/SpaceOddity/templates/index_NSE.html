@@ -6,6 +6,33 @@
     <title>Unity WebGL Player | Space Oddity</title>
     <link rel="shortcut icon" href="TemplateData/favicon.ico">
     <link rel="stylesheet" href="TemplateData/style.css">
+    //this commented block loads the game full screen which doesn't suit my game'
+    <!--<style>
+        body {
+            padding: 0;
+            margin: 0;
+        }
+        #unity-canvas, #unity-container {
+            width: 100% !important;
+            height: 100% !important;
+            position: absolute;
+        }
+    </style>-->
+    <style>
+        html, body {
+            height: 100%;
+        }
+
+        html {
+            display: table;
+            margin: auto;
+        }
+
+        body {
+            display: table-cell;
+            vertical-align: middle;
+        }
+    </style>
 </head>
 <body>
     <div id="unity-container" class="unity-desktop">
