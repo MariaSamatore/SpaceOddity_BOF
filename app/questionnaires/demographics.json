@@ -1,6 +1,5 @@
 {  
     "title":"Demographics",
-    "instructions":"Is this line necessary? Please answer the following questions.",
     "code":"",
     "questions":[
         {  
@@ -34,12 +33,12 @@
             "required":false
         },
         {
-        "questiontype": "slider",
-        "instructions": "How much do you self-identify as a gamer on the following scale:",
-        "id": "gamer_identity",
-        "left": "not at all",
-        "right": "gamer",
-        "tick_count": 10
+            "questiontype": "slider",
+            "instructions": "How much do you self-identify as a gamer on the following scale:",
+            "id": "gamer_identity",
+            "left": "not at all",
+            "right": "gamer",
+            "tick_count": 10
         },
         {
             "questiontype":"radiolist",
@@ -53,22 +52,25 @@
             ]
         },
         {
-            "questiontype":"field",
+            "questiontype":"multi_field",
             "instructions":"Do you have any feedback related to the study?",
             "placeholder":"study feedback",
-            "id":"input_1"
+            "id":"input_1",
+            "height":  "100"
         },
         {
-            "questiontype":"field",
-            "instructions":"Do you have any feedback related to the game?",
-            "placeholder":"game feedback",
-            "id":"input_2"
+            "questiontype": "multi_field",
+            "instructions": "Do you have any feedback related to the game?",
+            "placeholder": "game feedback",
+            "id": "input_2",
+            "height": "100"
         },
         {
-            "questiontype":"field",
-            "instructions":"Did you face any technical problems during the study? If yes, please describe below.",
-            "placeholder":"technical feedback",
-            "id":"input_3"
+            "questiontype": "multi_field",
+            "instructions": "Did you face any technical problems during the study? If yes, please describe below.",
+            "placeholder": "technical feedback",
+            "id": "input_3",
+            "height": "100"
         }
     ]
 }
