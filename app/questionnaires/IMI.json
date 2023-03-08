@@ -1,0 +1,51 @@
+{
+  "title": "IMI Interest/Enjoyment subscale",
+  "code": "",
+  "questions": [
+    {
+      "questiontype": "radiogrid",
+      "instructions": "For each of the following statements, please indicate how true it is for you, using the following scale:",
+      "id": "radio_1",
+      "shuffle": "true",
+      "labels": [
+        "Not at all true",
+        "",
+        "",
+        "Somewhat true",
+        "",
+        "",
+        "Very true"
+      ],
+      "q_text": [
+        {
+          "id": "q_1",
+          "text": " I enjoyed doing this activity very much. "
+        },
+        {
+          "id": "q_2",
+          "text": " This activity was fun to do. "
+        },
+        {
+          "id": "q_3",
+          "text": " I thought this was a boring activity. "
+        },
+        {
+          "id": "q_4",
+          "text": " This activity did not hold my attention at all. "
+        },
+        {
+          "id": "q_5",
+          "text": " I would describe this activity as very interesting. "
+        },
+        {
+          "id": "q_6",
+          "text": " I thought this activity was quite enjoyable. "
+        },
+        {
+          "id": "q_7",
+          "text": " While I was doing this activity, I was thinking about how much I enjoyed it. "
+        }
+      ]
+    }
+  ]
+}
