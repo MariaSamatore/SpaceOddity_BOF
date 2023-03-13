@@ -4,7 +4,7 @@
   "questions": [
     {
       "questiontype": "radiogrid",
-      "instructions": "For each of the following statements, please indicate how true it is for you, using the following scale:",
+      "instructions": "For the following statements, please reflect on your experience playing Space Oddity (the game you played for this study) and rate your agreement accordingly.",
       "id": "radio_1",
       "shuffle": "true",
       "labels": [

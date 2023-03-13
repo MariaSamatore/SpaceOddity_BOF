@@ -5,7 +5,7 @@
     "questions": [
         {
             "questiontype": "field",
-            "instructions": "Please enter your prolific ID",
+            "instructions": "Please enter your Prolific ID",
             "placeholder": "",
             "required": true,
             "id": "prolificID"

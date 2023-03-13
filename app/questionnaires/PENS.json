@@ -2,106 +2,106 @@
     "title":"PENS",
     "code":"",
     "questions":[
-        {
-            "questiontype": "radiogrid",
-            "instructions": "Reflect on your play experiences and rate your agreement with the following statements:",
-            "id": "radio_1",
-            "shuffle": "true",
-            "labels": [
-                "Not at all true",
-                "",
-                "",
-                "Somewhat true",
-                "",
-                "",
-                "Very true"
-             ],
-            "q_text": [
-                {
-                    "id": "q_1",
-                    "text": " I feel competent at the game. "
-                },
-                {
-                    "id": "q_2",
-                    "text": " I feel very capable and effective when playing. "
-                },
-                {
-                    "id": "q_3",
-                    "text": " My ability to play the game is well matched with the game's challenges. "
-                },
-                {
-                    "id": "q_4",
-                    "text": " The game provides me with interesting options and choices. "
-                },
-                {
-                    "id": "q_5",
-                    "text": " The game lets you do interesting things. "
-                },
-                {
-                    "id": "q_6",
-                    "text": " I experienced a lot of freedom in the game. "
-                },
-                {
-                    "id": "q_7",
-                    "text": " I find the relationships I form in this game fulfilling. "
-                },
-                {
-                    "id": "q_8",
-                    "text": " I find the relationships I form in this game important. "
-                },
-                {
-                    "id": "q_9",
-                    "text": " I don’t feel close to other players. "
-                },
-                {
-                    "id": "q_10",
-                    "text": " When playing the game, I feel transported to another time and place. "
-                },
-                {
-                    "id": "q_11",
-                    "text": " Exploring the game world feels like taking an actual trip to a new place. "
-                },
-                {
-                    "id": "q_12",
-                    "text": " When moving through the game world I feel as if I am actually there. "
-                },
-                {
-                    "id": "q_13",
-                    "text": " I am not impacted emotionally by events in the game. "
-                },
-                {
-                    "id": "q_14",
-                    "text": " The game was emotionally engaging. "
-                },
-                {
-                    "id": "q_15",
-                    "text": " I experience feelings as deeply in the game as I have in real life. "
-                },
-                {
-                    "id": "q_16",
-                    "text": " When playing the game I feel as if I was part of the story. "
-                },
-                {
-                    "id": "q_17",
-                    "text": " When I accomplished something in the game I experienced genuine pride. "
-                },
-                {
-                    "id": "q_18",
-                    "text": " I had reactions to events and characters in the game as if they were real. "
-                },
-                {
-                    "id": "q_19",
-                    "text": " Learning the game controls was easy. "
-                },
-                {
-                    "id": "q_20",
-                    "text": " The game controls are intuitive. "
-                },
-                {
-                    "id": "q_21",
-                    "text": " When I wanted to do something in the game, it was easy to remember the, corresponding control. "
-                }
-            ]
-        }
+      {
+        "questiontype": "radiogrid",
+        "instructions": "For the following statements, please reflect on your experience playing Space Oddity (the game you played for this study) and rate your agreement accordingly.",
+        "id": "radio_1",
+        "shuffle": "true",
+        "labels": [
+          "Not at all true",
+          "",
+          "",
+          "Somewhat true",
+          "",
+          "",
+          "Very true"
+        ],
+        "q_text": [
+          {
+            "id": "q_1",
+            "text": " I feel competent at the game. "
+          },
+          {
+            "id": "q_2",
+            "text": " I feel very capable and effective when playing. "
+          },
+          {
+            "id": "q_3",
+            "text": " My ability to play the game is well matched with the game's challenges. "
+          },
+          {
+            "id": "q_4",
+            "text": " The game provides me with interesting options and choices. "
+          },
+          {
+            "id": "q_5",
+            "text": " The game lets you do interesting things. "
+          },
+          {
+            "id": "q_6",
+            "text": " I experienced a lot of freedom in the game. "
+          },
+          {
+            "id": "q_7",
+            "text": " I find the relationships I form in this game fulfilling. "
+          },
+          {
+            "id": "q_8",
+            "text": " I find the relationships I form in this game important. "
+          },
+          {
+            "id": "q_9",
+            "text": " I don't feel close to other players. "
+          },
+          {
+            "id": "q_10",
+            "text": " When playing the game, I feel transported to another time and place. "
+          },
+          {
+            "id": "q_11",
+            "text": " Exploring the game world feels like taking an actual trip to a new place. "
+          },
+          {
+            "id": "q_12",
+            "text": " When moving through the game world I feel as if I am actually there. "
+          },
+          {
+            "id": "q_13",
+            "text": " I am not impacted emotionally by events in the game. "
+          },
+          {
+            "id": "q_14",
+            "text": " The game was emotionally engaging. "
+          },
+          {
+            "id": "q_15",
+            "text": " I experience feelings as deeply in the game as I have in real life. "
+          },
+          {
+            "id": "q_16",
+            "text": " When playing the game I feel as if I was part of the story. "
+          },
+          {
+            "id": "q_17",
+            "text": " When I accomplished something in the game I experienced genuine pride. "
+          },
+          {
+            "id": "q_18",
+            "text": " I had reactions to events and characters in the game as if they were real. "
+          },
+          {
+            "id": "q_19",
+            "text": " Learning the game controls was easy. "
+          },
+          {
+            "id": "q_20",
+            "text": " The game controls are intuitive. "
+          },
+          {
+            "id": "q_21",
+            "text": " When I wanted to do something in the game, it was easy to remember the, corresponding control. "
+          }
+        ]
+      }
     ]
 }
